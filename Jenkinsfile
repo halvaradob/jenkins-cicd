@@ -1,7 +1,8 @@
+
 pipeline {
     agent any
         stages {
-            stage("Checkout") {
+            stage("Checkou") {
                 steps {
                     git url: 'https://github.com/leszko/calculator.git'
                     }
